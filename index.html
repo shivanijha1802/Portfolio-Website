@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivani | Python Developer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">Shivani Jha</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h2>Hello, I'm <span>Shivani!</span></h2>
+                <p>A passionate Python Developer Intern with a love for building web applications and automation tools.</p>
+                <a href="/contact" class="btn">Contact Me</a>
+            </div><br>
+            <div class="hero-img">
+                <img src="https://via.placeholder.com/300x300.png?text=Photo" alt="Profile Photo">
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">Python</div>
+                <div class="skill-card">Flask</div>
+                <div class="skill-card">Pandas</div>
+                <div class="skill-card">HTML & CSS</div>
+                <div class="skill-card">MySQL</div>
+                <div class="skill-card">PHP</div>
+                <div class="skill-card">JavaScript</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>CLI Based Calculator <br>---</h3>
+                    <p>A basic Command-Line Calculator written in Python. It supports the four fundamental arithmetic operations: addition, subtraction, multiplication, and division.</p>
+                </div>
+                <div class="project-card">
+                    <h3>To Do List (Console Based) <br>---</h3>
+                    <p>A simple console-based To-Do List Manager built with Python that allows users to Add Tasks, View Tasks, Remove Task, Persist the Tasks in a text file.</p>
+                </div>
+                <div class="project-card">
+                    <h3>News Headlines Scrapper <br>---</h3>
+                    <p>A Web Scrapper for New Headlines which automatically fetch and save the latest news headlines from a news website using Python.</p>
+                </div>
+                <div class="project-card">
+                    <h3>REST API for User Management <br>---</h3>
+                    <p>This is a simple RESTful API built using Python and Flask. It allows to manage user data with basic CRUD operations — Create, Read, Update, and Delete.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Sales Data Analysis Project <br>---</h3>
+                    <p>Analyze sales data from a CSV file using Python and visualize insights with charts using MatPlotLib, Pandas and Seaborn.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Website <br>---</h3>
+                    <p>This current project - a dynamic website built using Flask showcasing skills and work.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Shivani | Python Developer</p>
+        </div>
+    </footer>
+</body>
+</html>

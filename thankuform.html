@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">Shivani Jha</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container" style="text-align: center;">
+            <h2>Thank You, {{ name }}!</h2>
+            <p>Your message has been received. I'll get back to you soon!</p><br>
+            <a href="/" class="btn">Back to Home</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Shivani | Python Developer</p>
+        </div>
+    </footer>
+</body>
+</html>
